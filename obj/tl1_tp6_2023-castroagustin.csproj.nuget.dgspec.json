@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Disco Nuevo\\FACET\\C III\\Taller de Lenguajes I\\Repos\\tl1_tp6_2023-castroagustin\\tl1_tp6_2023-castroagustin.csproj": {}
+  },
+  "projects": {
+    "D:\\Disco Nuevo\\FACET\\C III\\Taller de Lenguajes I\\Repos\\tl1_tp6_2023-castroagustin\\tl1_tp6_2023-castroagustin.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Disco Nuevo\\FACET\\C III\\Taller de Lenguajes I\\Repos\\tl1_tp6_2023-castroagustin\\tl1_tp6_2023-castroagustin.csproj",
+        "projectName": "tl1_tp6_2023-castroagustin",
+        "projectPath": "D:\\Disco Nuevo\\FACET\\C III\\Taller de Lenguajes I\\Repos\\tl1_tp6_2023-castroagustin\\tl1_tp6_2023-castroagustin.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "D:\\Disco Nuevo\\FACET\\C III\\Taller de Lenguajes I\\Repos\\tl1_tp6_2023-castroagustin\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
