@@ -1,31 +1,34 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-int a;
-int b;
-a = 10;
-b = a;
-Console.WriteLine("valor de a:" + a);
-Console.WriteLine("valor de b:" + b);
-
-int num;
-int resto;
-
-Console.WriteLine("Ingrese un numero: ");
-string? aux2 = Console.ReadLine();
-bool resultado = int.TryParse(aux2, out num);
-
-if (resultado == true)
+float a, b, c = 0;
+int aux;
+do
 {
-    aux2 = "";
-    while (num > 0)
+    Console.WriteLine("\nIngrese una opcion:\n0-Salir\n1-Suma\n2-Resta\n3-Multiplicacion\n4-Division");
+    int.TryParse(Console.ReadLine(), out aux);
+    if (aux != 0)
     {
-        resto = num % 10;
-        num = num / 10;
-        aux2 = aux2 + String.Concat(resto);
+        Console.Write("Ingrese el valor de a: ");
+        float.TryParse(Console.ReadLine(), out a);
+
+        Console.Write("Ingrese el valor de b: ");
+        float.TryParse(Console.ReadLine(), out b);
+        switch (aux)
+        {
+            case 1:
+                c = a + b;
+                break;
+            case 2:
+                c = a - b;
+                break;
+            case 3:
+                c = a * b;
+                break;
+            case 4:
+                c = a / b;
+                break;
+            default:
+                break;
+        }
+        Console.WriteLine("Resultado: " + c);
     }
-    Console.WriteLine("Numero invertido: " + aux2);
-}
-else
-{
-    Console.WriteLine("El dato ingresado no es un numero");
-}
+} while (aux != 0);
